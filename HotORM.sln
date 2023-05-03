@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33620.401
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotORM", "HotORM\HotORM.csproj", "{130B701B-A2F1-47ED-9075-2B01F2B6952B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{130B701B-A2F1-47ED-9075-2B01F2B6952B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{130B701B-A2F1-47ED-9075-2B01F2B6952B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{130B701B-A2F1-47ED-9075-2B01F2B6952B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{130B701B-A2F1-47ED-9075-2B01F2B6952B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {146D45FC-A26F-4CB4-BA06-BCE64E607C7F}
+	EndGlobalSection
+EndGlobal

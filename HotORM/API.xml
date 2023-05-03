@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HotORM</name>
+    </assembly>
+    <members>
+        <member name="F:Hot.ORM.Form1.components">
+            <summary>
+             Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Hot.ORM.Form1.Dispose(System.Boolean)">
+            <summary>
+             Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Hot.ORM.Form1.InitializeComponent">
+            <summary>
+             Required method for Designer support - do not modify
+             the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:HotORM.Program">
+            <summary>
+            Classe de programa padrão para criação da aplicação.
+            As configurações do 'builder' e 'app' estão no appsettings.json, que
+            é incorporado no executável da aplicação. Configurações padrão estão
+            incluídas nas DLLs das bibliotecas (Hot.DLL e HotAPI.DLL)
+            </summary>
+        </member>
+        <member name="M:HotORM.Program.Main(System.String[])">
+            <summary>
+            Método 'main' padrão da HotAPI
+            </summary>
+            <param name="args"></param>
+        </member>
+    </members>
+</doc>
