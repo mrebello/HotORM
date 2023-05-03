@@ -11,6 +11,16 @@ public partial class Form1 : Form {
 
     private void button1_Click(object sender, EventArgs e) {
 
+        MessageBox.Show("Conf1: " + HotORM.Properties.Settings.Default.conf1 + " | Conf2: " + HotORM.Properties.Settings.Default.conf2);
+        HotORM.Properties.Settings.Default.Reload();
+        MessageBox.Show("Conf1: " + HotORM.Properties.Settings.Default.conf1 + " | Conf2: " + HotORM.Properties.Settings.Default.conf2);
+
+        HotORM.Properties.Settings.Default.conf1 = "Teste da configuração 4";
+        HotORM.Properties.Settings.Default.Save();
+
+        MessageBox.Show("Conf1: " + HotORM.Properties.Settings.Default.conf1 + " | Conf2: " + HotORM.Properties.Settings.Default.conf2);
+
+
         //Scripter scr = new Scripter(server);
         //scr.Options.DriAllConstraints = true;
         //scr.Options.DriIncludeSystemNames = true;
