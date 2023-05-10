@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33620.401
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotORM", "HotORM\HotORM.csproj", "{130B701B-A2F1-47ED-9075-2B01F2B6952B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotORM", "HotORM\HotORM.csproj", "{130B701B-A2F1-47ED-9075-2B01F2B6952B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotCore", "..\..\HotCore\HotCore\HotCore.csproj", "{433E27B5-1712-4612-A12D-F03B0B05D6D5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{130B701B-A2F1-47ED-9075-2B01F2B6952B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{130B701B-A2F1-47ED-9075-2B01F2B6952B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{130B701B-A2F1-47ED-9075-2B01F2B6952B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{433E27B5-1712-4612-A12D-F03B0B05D6D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{433E27B5-1712-4612-A12D-F03B0B05D6D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{433E27B5-1712-4612-A12D-F03B0B05D6D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{433E27B5-1712-4612-A12D-F03B0B05D6D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

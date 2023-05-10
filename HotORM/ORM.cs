@@ -5,11 +5,7 @@ public class ORM {
     Server server;
     string? database = null;
 
-    public ORM(string connectionString) {
-        BD_simples BD = new();
-        var builder = new System.Data.Common.DbConnectionStringBuilder();
-        builder.ConnectionString = connectionString;
-
+    public ORM(BD_simples BD) {
         var sc = new ServerConnection(BD.sqlConnectionOpened);
         server = new Server(sc);
     }

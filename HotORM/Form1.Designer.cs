@@ -61,7 +61,6 @@ partial class Form1 {
         // 
         AutoScaleDimensions = new SizeF(6F, 13F);
         AutoScaleMode = AutoScaleMode.Font;
-        BackColor = HotORM.Properties.Settings.Default.Configuração1;
         ClientSize = new Size(882, 769);
         Controls.Add(lb_Tabela);
         Controls.Add(textBox1);
